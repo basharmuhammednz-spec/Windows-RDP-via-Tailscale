@@ -47,7 +47,7 @@ env:
 
 jobs:
   rdp:
-    runs-on: windows-latest
+    runs-on: self-hosted
     timeout-minutes: 370
     steps:
       - name: 🔧 Resolve inputs (safe)
